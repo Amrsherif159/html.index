@@ -1,0 +1,88 @@
+/* خلفية الصفحة */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #6a11cb);
+}
+
+/* تنسيق حاوية تسجيل الدخول */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* زر الإغلاق */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* عنوان النموذج */
+h2 {
+    text-align: center;
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+/* تنسيق الحقول */
+label {
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* رابط نسيان كلمة المرور */
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* زر تسجيل الدخول */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #4facfe, #6a11cb);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* رابط الاشتراك */
+.signup-text {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.signup-text a {
+    color: #6a11cb;
+    text-decoration: none;
+}
